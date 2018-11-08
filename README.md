@@ -15,10 +15,12 @@ So, fist what are we building??
    dictionary and finally compute the total number of items you have in the inventory
 
 3. So, basically you write two function for that,
-     a. addToInventory(inv, dragonLoot):  #line 2
-     b. displayInventory(inventory):      #line 23
+    
+         a. addToInventory(inv, dragonLoot):  #line 2
+    
+         b. displayInventory(inventory):      #line 23
 
-4.addInventory is by, "inv=addToInventory(inv, dragonLoot)" part of the code
+4. addInventory is by, "inv=addToInventory(inv, dragonLoot)" part of the code
 
 5. Just go through these functions and try to understand how it works, it is pretty 
     simple and I guess you won't have any problem

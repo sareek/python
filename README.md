@@ -14,4 +14,17 @@ So, fist what are we building??
 2. Also, you have list 'dragonLoot' and you need to add items in this list to the 
    dictionary and finally compute the total number of items you have in the inventory
 
+3. So, basically you write two function for that,
+     a. addToInventory(inv, dragonLoot):  #line 2
+     b. displayInventory(inventory):      #line 23
 
+4.addInventory is by, "inv=addToInventory(inv, dragonLoot)" part of the code
+
+5. Just go through these functions and try to understand how it works, it is pretty 
+    simple and I guess you won't have any problem
+
+If you need any help, contact me at sareek007@gmail.com
+
+I can help you with javascript problems too.
+
+Happy learning 

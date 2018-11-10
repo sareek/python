@@ -11,8 +11,14 @@ def addToInventory(inv, dragonLoot):
     
 
     for i in range(length):
+        count=0
         if dragonLoot[i] not in inv:
-            inv.update({dragonLoot[i]:1})
+            for j in range(length):
+                if dragonLoot[j]==dragonLoot[i]:
+                    count+=1
+                    
+          
+            inv.update({dragonLoot[i]:count})
             # print('jsjsjs')
             # print(inv)
             # addToInventory(inv,dragonLoot)
@@ -31,7 +37,7 @@ def displayInventory(inventory):
     print("Total number of items: " + str(item_total))            
                
 inv = {'gold coin': 42, 'rope': 1}
-dragonLoot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
+dragonLoot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby','ruby','dagger']
 inv=addToInventory(inv, dragonLoot)
 
 print(inv)
